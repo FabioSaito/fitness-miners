@@ -35,7 +35,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       ## User key
       t.string :jwt_key
 
-
       t.timestamps null: false
     end
 

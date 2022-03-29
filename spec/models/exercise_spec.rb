@@ -5,7 +5,7 @@ RSpec.describe Exercise, type: :model do
     it { should have_many(:routines) }
     it { should have_many(:exercise_routines) }
   end
-  
+
   context 'validations' do
     it { should validate_presence_of(:description) }
     it { should validate_presence_of(:intensity) }
