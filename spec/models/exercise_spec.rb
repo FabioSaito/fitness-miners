@@ -2,8 +2,9 @@ require 'rails_helper'
 
 RSpec.describe Exercise, type: :model do
   context 'associations' do
-    it { should have_many(:routines) }
+    it { should have_many(:routines).through(:exercise_routines) }
     it { should have_many(:exercise_routines) }
+    it { should have_many(:exercise_routines).dependent(:destroy) }
   end
 
   context 'validations' do
