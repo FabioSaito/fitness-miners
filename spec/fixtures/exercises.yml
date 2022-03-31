@@ -1,0 +1,35 @@
+leg_extension:
+  description: 'Leg Extension'
+  intensity: 7
+
+squat:
+  description: 'Squat'
+  intensity: 10
+
+leg_press:
+  description: 'Leg Press'
+  intensity: 10
+
+bench_press:
+  description: 'Bench Press'
+  intensity: 10
+
+fly:
+  description: 'Fly'
+  intensity: 6
+
+dips:
+  description: 'Dips'
+  intensity: 7
+
+pull_up:
+  description: 'Pull Up'
+  intensity: 8
+
+row:
+  description: 'Row'
+  intensity: 9
+
+pull_down:
+  description: 'Pull Down'
+  intensity: 6

@@ -1,0 +1,11 @@
+leg_day:
+  name: 'Leg Day'
+  exercises: leg_extension, squat, leg_press
+
+chest_day:
+  name: 'Chest Day'
+  exercises: bench_press, fly, dip
+
+back_day:
+  name: 'Back Day'
+  exercises: pull_up, row, pull_down
