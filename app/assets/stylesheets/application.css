@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+:root {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container__routines-exercises {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650px;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+.container__exercises {
+  width: 350px;
+
+}
+
+.text__routines {
+  width: 250px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.text__routines-exercises {
+  color:#242c95
+}
