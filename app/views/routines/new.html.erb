@@ -1,0 +1,14 @@
+<%= link_to "Página Principal", root_path %> <br/>
+<h1>New Routine</h1>
+
+<%= form_with model: @routine do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <br/>
+    <%= form.submit %>
+  </div>
+<% end %>
