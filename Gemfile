@@ -73,4 +73,4 @@ group :test do
   gem "shoulda-matchers", "~> 5.0"
 end
 
-gem 'devise'
+gem "devise", "~> 4.8"
